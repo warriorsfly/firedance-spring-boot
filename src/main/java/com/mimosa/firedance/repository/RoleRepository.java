@@ -1,6 +1,6 @@
-package com.mimosa.firedance.login.repository;
+package com.mimosa.firedance.repository;
 
-import com.mimosa.firedance.login.model.Role;
+import com.mimosa.firedance.model.Role;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

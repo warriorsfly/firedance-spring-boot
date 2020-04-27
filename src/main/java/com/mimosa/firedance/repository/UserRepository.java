@@ -1,6 +1,6 @@
-package com.mimosa.firedance.login.repository;
+package com.mimosa.firedance.repository;
 
-import com.mimosa.firedance.login.model.User;
+import com.mimosa.firedance.model.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

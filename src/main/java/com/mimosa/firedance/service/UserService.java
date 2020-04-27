@@ -1,9 +1,9 @@
-package com.mimosa.firedance.login.service;
+package com.mimosa.firedance.service;
 
-import com.mimosa.firedance.login.model.Role;
-import com.mimosa.firedance.login.model.User;
-import com.mimosa.firedance.login.repository.RoleRepository;
-import com.mimosa.firedance.login.repository.UserRepository;
+import com.mimosa.firedance.model.Role;
+import com.mimosa.firedance.model.User;
+import com.mimosa.firedance.repository.RoleRepository;
+import com.mimosa.firedance.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

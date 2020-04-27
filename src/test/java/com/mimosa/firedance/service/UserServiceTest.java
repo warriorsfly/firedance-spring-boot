@@ -1,8 +1,8 @@
-package com.mimosa.firedance.login.service;
+package com.mimosa.firedance.service;
 
-import com.mimosa.firedance.login.model.User;
-import com.mimosa.firedance.login.repository.RoleRepository;
-import com.mimosa.firedance.login.repository.UserRepository;
+import com.mimosa.firedance.model.User;
+import com.mimosa.firedance.repository.RoleRepository;
+import com.mimosa.firedance.repository.UserRepository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

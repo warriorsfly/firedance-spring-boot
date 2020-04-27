@@ -1,4 +1,4 @@
-package com.mimosa.firedance.login.service;
+package com.mimosa.firedance.service;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -7,8 +7,8 @@ import java.util.Set;
 
 import javax.transaction.Transactional;
 
-import com.mimosa.firedance.login.model.Role;
-import com.mimosa.firedance.login.model.User;
+import com.mimosa.firedance.model.Role;
+import com.mimosa.firedance.model.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,4 +1,4 @@
-package com.mimosa.firedance.login.model;
+package com.mimosa.firedance.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
