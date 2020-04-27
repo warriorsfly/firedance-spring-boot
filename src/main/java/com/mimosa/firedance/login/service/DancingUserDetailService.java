@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import javax.transaction.Transactional;
+
 import com.mimosa.firedance.login.model.Role;
 import com.mimosa.firedance.login.model.User;
 
@@ -23,6 +25,7 @@ public class DancingUserDetailService implements UserDetailsService {
     private UserService userService;
 
     @Override
+    @Transactional
     public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
 
         User user = userService.findByUserName(userName);
